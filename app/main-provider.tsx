@@ -10,7 +10,7 @@ const ProviderComponent = ({ children }: { children: ReactNode }) => {
     <Provider store={store}>
       <QueryClientProvider client={queryClient}>
         {children}
-        <ReactQueryDevtools initialIsOpen={true} />
+        {/* <ReactQueryDevtools initialIsOpen={true} /> */}
       </QueryClientProvider>
     </Provider>
   );
